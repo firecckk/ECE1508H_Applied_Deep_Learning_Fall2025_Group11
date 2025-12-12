@@ -8,6 +8,15 @@
 
 ---
 
+### **Dependencies**
+
+To install all required packages, run:
+
+```bash
+pip install -r requirements.txt
+
+---
+
 ### **Main Architecture**
 - **`vig.py`**  
   Implements the core **ViG (Vision GNN)** architecture used in this project.
@@ -43,7 +52,7 @@
 ---
 
 ### **Training Scripts**
-Each of the following files trains the corresponding model architecture:
+Each of the following files trains and tune (random search) the corresponding model architecture:
 
 - `train_resnet50.py`
 - `train_densenet169.py`
