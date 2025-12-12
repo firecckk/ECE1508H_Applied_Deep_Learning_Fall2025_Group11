@@ -14,7 +14,7 @@ To install all required packages, run:
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ### **Main Architecture**
